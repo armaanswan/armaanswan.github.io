@@ -38,6 +38,20 @@ body {
     justify-content: space-between;
 }
 
+.left .activities li:hover::before {
+    content: '*';
+    position: relative;
+    right: 10px;
+    color: black;
+}
+
+.left #activity-message-container {
+    height: 100px;
+    width: 250px;
+    margin-top: 1rem;
+    color: rgb(140, 140, 140);
+}
+
 .right .academics ul {
     text-align: end;
     margin-bottom: 1rem;
